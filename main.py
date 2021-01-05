@@ -1,8 +1,8 @@
 
-def addCheck(p, knights):
-    if p == knights:
+def password(p):
+    if p == "Knights19":
         return (True)
     else:
         return (False)
 
-print (addCheck(knights))
+print (password("Knights19"))
